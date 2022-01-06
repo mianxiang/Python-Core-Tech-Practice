@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": "Listtuple"
+		},
+		{
+			"path": "dictset"
+		},
+		{
+			"path": "str"
+		},
+		{
+			"path": "inputoutput"
+		},
+		{
+			"path": "exception"
+		},
+		{
+			"path": "customfunction"
+		},
+		{
+			"path": "lambdaexpression"
+		},
+		{
+			"name": "Python核心技术与实践",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
