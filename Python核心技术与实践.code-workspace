@@ -24,6 +24,9 @@
 		{
 			"name": "Python核心技术与实践",
 			"path": "."
+		},
+		{
+			"path": "class"
 		}
 	],
 	"settings": {}
