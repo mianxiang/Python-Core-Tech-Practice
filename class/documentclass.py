@@ -18,3 +18,4 @@ print(harry_potter_book.title)
 print(harry_potter_book.get_context_length())
 print(harry_potter_book.intercept_context(4))
 print(harry_potter_book.get_context_length())
+
