@@ -1,7 +1,7 @@
-import simplesearchengine
-import BOWSearchEngine
-import BOWInvertedIndexEngine
-import BOWInvertedIndexEngineWithCache
+""" from simplesearchengine import SearchEngineBase
+from BOWSearchEngine import BOWSearchEngine"""
+from BOWInvertedIndexEngine import BOWInvertedIndexEngine
+# from BOWInvertedIndexEngineWithCache import BOWInvertedIndexEngineWIthCache
 
 
 def main(search_engine):
@@ -16,7 +16,7 @@ def main(search_engine):
             print(result)
 
 
-search_engine = BOWInvertedIndexEngineWithCache.BOWInvertedIndexEngineWIthCache()
+search_engine = BOWInvertedIndexEngine()
 print('Start to use the {}:'.format(type(search_engine)))
 main(search_engine)
 

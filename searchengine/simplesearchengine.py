@@ -1,6 +1,6 @@
-import searchenginebase
+from searchenginebase import SearchEngineBase
 
-class SimpleEngine(searchenginebase.SearchEngineBase):
+class SimpleEngine(SearchEngineBase):
     def __init__(self):
         super().__init__()
         self.__id_to_texts = {}

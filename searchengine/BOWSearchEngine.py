@@ -1,7 +1,7 @@
-import searchenginebase
+from searchenginebase import SearchEngineBase
 import re
 
-class BOWSearchEngine(searchenginebase.SearchEngineBase):
+class BOWSearchEngine(SearchEngineBase):
     def __init__(self):
         super().__init__()
         self.__id_to_words = {}

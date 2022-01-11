@@ -1,4 +1,4 @@
-import BOWInvertedIndexEngine
+from BOWInvertedIndexEngine import BOWInvertedIndexEngine
 import pylru
 
 class LRUCache(object):

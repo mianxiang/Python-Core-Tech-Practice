@@ -1,7 +1,7 @@
-import searchenginebase
+from searchenginebase import SearchEngineBase
 import re
 
-class BOWInvertedIndexEngine(searchenginebase.SearchEngineBase):
+class BOWInvertedIndexEngine(SearchEngineBase):
     def __init__(self):
         super().__init__()
         self.inverted_index = {}
