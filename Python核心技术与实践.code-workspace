@@ -33,6 +33,9 @@
 		},
 		{
 			"path": "modulepractice"
+		},
+		{
+			"path": "assignment"
 		}
 	],
 	"settings": {}
