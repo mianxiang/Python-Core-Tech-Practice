@@ -36,6 +36,12 @@
 		},
 		{
 			"path": "assignment"
+		},
+		{
+			"path": "decorator"
+		},
+		{
+			"path": "metaclass"
 		}
 	],
 	"settings": {}
