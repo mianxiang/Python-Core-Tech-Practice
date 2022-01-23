@@ -45,6 +45,9 @@
 		},
 		{
 			"path": "coroutines"
+		},
+		{
+			"path": "future"
 		}
 	],
 	"settings": {}
