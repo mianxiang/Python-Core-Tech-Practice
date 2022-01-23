@@ -1,0 +1,8 @@
+
+if io_bound:
+    if io_slow:
+        print('Use Asyncio')
+    else:
+        print('Use multi-threading')
+else if cpu_bound:
+    print('Use multi-processing')
