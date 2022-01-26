@@ -51,6 +51,9 @@
 		},
 		{
 			"path": "thread-vs-coroutine"
+		},
+		{
+			"path": "gc"
 		}
 	],
 	"settings": {}
