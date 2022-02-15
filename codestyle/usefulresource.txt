@@ -1,0 +1,17 @@
+https://google.github.io/styleguide/pyguide.html
+https://www.pylint.org/
+
+development->code review/code readability review->code style auto linter->submit code
+
+
+https://blog.csdn.net/suzyu12345/article/details/80323067?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7EHighlightScore-1.queryctrv2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7EHighlightScore-1.queryctrv2&utm_relevant_index=2
+https://blog.csdn.net/FU250/article/details/95633286
+
+git-pylint-commit-hook
+
+1. Install pylint
+2. Install git-pylint-commit-hook
+3. Create pre-commit file at C:\Users\mac\PycharmProjects\git_pylint_test\.git\hooks and type below content:
+#!/bin/sh
+git-pylint-commit-hook
+4. When commit code by git, it will launch pylint automatically to check the python code.

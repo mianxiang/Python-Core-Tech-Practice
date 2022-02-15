@@ -1,0 +1,22 @@
+2.9 Generators
+Use generators as needed.
+
+
+
+2.9 Definition
+A generator function returns an iterator that yields a value each time it executes a yield statement. After it yields a value, the runtime state of the generator function is suspended until the next value is needed.
+
+
+
+2.9.2 Pros
+Simpler code, because the state of local variables and control flow are preserved for each call. A generator uses less memory than a function that creates an entire list of values at once.
+
+
+
+2.9.3 Cons
+None.
+
+
+
+2.9.4 Decision
+Fine. Use “Yields:” rather than “Returns:” in the docstring for generator functions

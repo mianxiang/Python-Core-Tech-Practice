@@ -54,6 +54,12 @@
 		},
 		{
 			"path": "gc"
+		},
+		{
+			"path": "CodeStyle"
+		},
+		{
+			"path": "contextmanager"
 		}
 	],
 	"settings": {}
