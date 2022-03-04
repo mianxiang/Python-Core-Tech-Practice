@@ -63,6 +63,12 @@
 		},
 		{
 			"path": "cprofile"
+		},
+		{
+			"path": "QuantitativeTrading"
+		},
+		{
+			"path": "zmq_test"
 		}
 	],
 	"settings": {}
